@@ -1,0 +1,15 @@
+client:
+    - a: ip address (default 127.0.0.1)
+    - r: port number (default 8080)
+
+server:
+    - r
+
+TCPRequestChannel:
+    - in client/server replace FIFORequestChannel 
+    with TCPRequestChannel
+
+ 
+
+
+
